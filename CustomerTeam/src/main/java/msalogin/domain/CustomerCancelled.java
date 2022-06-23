@@ -8,8 +8,12 @@ import msalogin.infra.AbstractEvent;
 @Data
 public class CustomerCancelled extends AbstractEvent {
 
-    private String customerId;
+    private Long customerId;
     private String status;
+
+    public CustomerCancelled(Customer aggregate) {
+        super(aggregate);
+    }
 
     public CustomerCancelled() {
         super();
