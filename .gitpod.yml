@@ -74,3 +74,4 @@ public class OrderController {
 }
 
 */
+#INSERT INTO Login_table(customer_id,accountBal,accountNum,accountStatus,bankingId,bankingStatus,customerStatus,islogin,password) VALUES (1,'10000','10','01','nanana','01','01',0,'base64')
